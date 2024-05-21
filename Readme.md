@@ -34,7 +34,7 @@ try {
 }
 ```
 
-##Remove
+## Remove
 ```
 try {
     String[] removedRow = db.removeFirstWhere("Name", "John Doe");
@@ -53,7 +53,7 @@ try {
 }
 ```
 
-Find
+## Find
 
 To find the first row where a column matches a specified value:
 
@@ -73,7 +73,7 @@ try {
     e.printStackTrace();
 }
 ```
-##Update
+## Update
 
 To update the first row where a column matches a specified condition:
 
@@ -92,7 +92,7 @@ try {
     e.printStackTrace();
 }
 ```
-##Indexing
+## Indexing
 
 To create an index on a specific column:
 ```
@@ -110,7 +110,7 @@ try {
     e.printStackTrace();
 }
 ```
-##Exception Handling
+## Exception Handling
 
 The Database class uses a custom DatabaseException class to handle various error conditions such as duplicate inserts, invalid column names, and full database.
 
